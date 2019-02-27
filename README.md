@@ -4,7 +4,9 @@ Where we'll keep all of our projects and teaching materials for the Intro to Pyt
 Installation:
 
 `sudo apt install python3`
+
 `sudo apt update`
+
 `sudo apt upgrade`
 
 Run a Python script with:
