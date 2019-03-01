@@ -15,3 +15,17 @@ print(result)
 result = firstnum-secondnum
 
 print(result)
+
+#wow 2-3 equals 1
+
+result = firstnum*secondnum
+
+print(result)
+
+#wow 2*3 equals 6
+
+result = firstnum/secondnum
+
+print(result)
+
+#wow 2/3 equals 1.5
