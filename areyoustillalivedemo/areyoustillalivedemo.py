@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+#gotta have a shebang line
+
 import datetime
 import time
 import os
