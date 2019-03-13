@@ -13,4 +13,4 @@
 # Create a while true loop to destroy your computer (but only if it's slow, or a Chromebook)
 
 while True:
-    print("Kill me please")
+    print("Infinite Loop")
