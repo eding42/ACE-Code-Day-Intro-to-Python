@@ -1,0 +1,3 @@
+[submodule "kaicnn"]
+	path = kaicnn
+	url = https://gitlab.com/really-stupid-projects-that-should-not-exist/kaicnn.git
