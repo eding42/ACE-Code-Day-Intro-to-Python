@@ -10,4 +10,3 @@
 # Create a while true loop to destroy your computer
 while True:
     print("Kill me please")
-
