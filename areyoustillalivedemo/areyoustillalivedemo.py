@@ -1,30 +1,30 @@
 #!/usr/bin/python3
-
 #gotta have a shebang line
-
 import datetime
 import time
 import os
-
 from threading import Thread
 
-now = str(datetime.datetime.now())
 
-now = now[:-7]
+# Get the date using builtin datetime module
+# Way less hacky than Edward's solution
+now = datetime.datetime.now().date()
 
-print("What is your name\n")
+# Ask the user for their name
+name = input("What is your name?:")
 
-name = input()
+# Remove extra spaces from name
+name = name.strip()
 
-if name[-1] == " ":
-    name = name[:-1]
-
-elif name.lower() == "edward" or name.lower() == "edward ding":
+# Autocorrect name if you're too lazy to type it properly
+if name.lower() == "edward" or name.lower() == "edward ding":
     name = "Edward Ding"
-answer = None
 
-
+# Wait for an input from the user
+# If the user doesn't respond say they are dead
 def check():
+    # Scoping is important edward
+    answer = None
     time.sleep(7)
     if answer != None:
         return
