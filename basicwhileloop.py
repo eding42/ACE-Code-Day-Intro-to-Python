@@ -3,7 +3,7 @@
 # Syntax
 #   while(condition):
 #
-# This runs the indented code a certain amount of times, until the condition is satisfied.
+# This runs the indented code until the condition is satisfied.
 # Unlike 'for' loops, the while loop does not keep track of how many times the loop has been run.
 #
 # Because of this reason, while loops are simple to understand, but become very unwieldy when coding for larger problems.
@@ -18,7 +18,8 @@ x = 0
 # let's run it
 while(x<12):
     print("hello world")
+    # The variable has to be incremented manually, otherwise the loop will run forever
+    # and your computer will melt.
     x = x+1
-    # Remember, you must advance the variable, or the while loop becomes infinite and melts your computer.
 
 # Voila! As we expected, the while loop ran the print statement a total of 12 times.
