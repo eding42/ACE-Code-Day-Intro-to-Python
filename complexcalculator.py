@@ -1,3 +1,19 @@
+<<<<<<< goodprojectslol
+x,y=input()
+
+
+operation=str(input("Hello there, what is your operation?"))
+
+x = int(x)
+y = int(y)
+
+def addition():
+    result=x+y
+    print(result)
+
+if operation.lower() == "addition":
+    addition()
+=======
 # Import the python builtin math library
 import math
 
@@ -31,3 +47,4 @@ elif op == "/":
 else:
     # If the user didn't input a recognized operation, quit
     print("Operation not recognized! I'm going to kill myself now.")
+>>>>>>> master
