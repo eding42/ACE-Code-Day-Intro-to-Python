@@ -13,19 +13,18 @@ java = "bad"
 if java == "bad":
     print("JAVA MAN BAD")
 
-#---------------------------------
 # If statements have a few special cases.
 # These cases are "elif" and "else".
 # "Else" runs a piece of code when none of the other
 # statements are true.
 # "Elif" is basically shorthand for else: if condition: 
 
-badlang = "python2"
+heathen = "python2"
 
-if badlang == "java":
+if heathen == "java":
     # If badlang has value "java", print "java man bad"
     print("java man bad")
-elif badlang == "python2":
+elif heathen == "python2":
     # If badlang has value "python2", print "python2 is old"
     print("python2 is old")
 else:

@@ -3,7 +3,7 @@ import random
 # This thanos script takes a list of people and snaps them randomly
 
 # Create list of people
-people = ["vincent", "edward", "john cena", "memelord", "t-series"]
+people = ["vincent", "edward", "Fortnite", "Chungus", "t-series"]
 
 # Delete half the people
 # Deletes one person len(people)//2 times
