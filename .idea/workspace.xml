@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="160e477a-d525-447d-a9ba-e5620a0781e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/randommodule.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/randommodule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/lists.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,26 +50,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lessons/randommodule.py">
+        <entry file="file://$PROJECT_DIR$/Lessons/lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kaicnndemo/genset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kaicnndemo/data/slack-export-software-2019-02-23T0104Z.csv">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -101,6 +86,7 @@
         <option value="$PROJECT_DIR$/kaicnndemo/genset.py" />
         <option value="$PROJECT_DIR$/kaicnndemo/markov.py" />
         <option value="$PROJECT_DIR$/Lessons/randommodule.py" />
+        <option value="$PROJECT_DIR$/Lessons/lists.py" />
       </list>
     </option>
   </component>
@@ -237,7 +223,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kaicnndemo/markov.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kaimarkovdemo/markov.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -344,7 +330,7 @@
       <workItem from="1552276227821" duration="15000" />
       <workItem from="1552276329406" duration="5000" />
       <workItem from="1552276428822" duration="674000" />
-      <workItem from="1552448475045" duration="6198000" />
+      <workItem from="1552448475045" duration="6780000" />
     </task>
     <task id="LOCAL-00001" summary="Tightened up the Kill Computer Script">
       <created>1552448842528</created>
@@ -402,30 +388,36 @@
       <option name="project" value="LOCAL" />
       <updated>1552452574190</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed vincents nested function things... that took surprisingly long. &#10;&#10;thanks vincent. Fixed random.shuffle, that vincent didn't find apparently&#10;&#10;Does vincent even test his scripts before he commits?">
+      <created>1552455130111</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552455130111</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9530000" />
+    <option name="totallyTimeSpent" value="10112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="993" y="25" width="927" height="1055" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19863792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19863792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4982974" visible="true" weight="0.3034557" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4971623" visible="true" weight="0.3034557" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49943247" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5017026" side_tool="true" visible="true" weight="0.3034557" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50283766" side_tool="true" visible="true" weight="0.3034557" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4982974" weight="0.12526998" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -447,7 +439,8 @@
     <MESSAGE value="add simple while loop lesson" />
     <MESSAGE value="GOD REORGANIZED ALL OF THE FILES INTO RELEVANT FOLDERS THAT TOOK A LOT OF CLICKING THROUGH DIALOG BOXES THANKS PYCHARM" />
     <MESSAGE value="add KaiCNN Demo even though its not a CNN and it's a markove chain &#10;&#10;goddamnit vincent" />
-    <option name="LAST_COMMIT_MESSAGE" value="add KaiCNN Demo even though its not a CNN and it's a markove chain &#10;&#10;goddamnit vincent" />
+    <MESSAGE value="fixed vincents nested function things... that took surprisingly long. &#10;&#10;thanks vincent. Fixed random.shuffle, that vincent didn't find apparently&#10;&#10;Does vincent even test his scripts before he commits?" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed vincents nested function things... that took surprisingly long. &#10;&#10;thanks vincent. Fixed random.shuffle, that vincent didn't find apparently&#10;&#10;Does vincent even test his scripts before he commits?" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lessons/PrintFunction.py">
@@ -512,26 +505,23 @@
     <entry file="file://$PROJECT_DIR$/kaicnndemo/data/slack-export-mechanical-2019-02-23T0057Z.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/kaicnndemo/data/slack-export-software-2019-02-23T0104Z.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/kaicnndemo/data/slack-export-privategroup-2019-02-23T0103Z.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/kaicnndemo/data/dataset.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/kaicnndemo/genset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kaicnndemo/markov.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-142">
           <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/randommodule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -542,10 +532,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lessons/randommodule.py">
+    <entry file="file://$PROJECT_DIR$/kaicnndemo/data/slack-export-software-2019-02-23T0104Z.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kaicnndemo/genset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>

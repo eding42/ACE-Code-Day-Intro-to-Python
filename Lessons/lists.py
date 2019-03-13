@@ -24,6 +24,5 @@ print(people[1:3]) # Prints the people from index 1 (thanos) to 2 (edward ding)
 
 # You can iterate/loop through (that is, go through each element of the list)
 # using a for loop
-# ^^ is this too advanced?
 for person in people:
     print(person + " is hella lit my dude.")
