@@ -5,8 +5,12 @@
 # How It Works:
 #   Basically, the "while (condition)" loop runs while a condition is true.
 #   We exploit this fact by setting the condition to True.
-#   Since True is always true (who would've guessed?) the loop runs forever.
+#   Since True is always true (who would've guessed?) the loop runs until the end of time!
+#   When run through a low performance platform like repl.it, you end up with frozen tab.
+#
+# Use Ctrl + C to exit out of the infinite loop (which for some reason doesn't actually work for Pycharm)
+#
+# Create a while true loop to destroy your computer (but only if it's slow, or a Chromebook)
 
-# Create a while true loop to destroy your computer
 while True:
     print("Kill me please")
