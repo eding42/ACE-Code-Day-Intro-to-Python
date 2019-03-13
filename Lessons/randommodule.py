@@ -7,10 +7,15 @@
 import random
 
 # random.randint: generate a random integer
-print(random.randint(1, 10))
+
+random_integer = random.randint(1, 10)
+print(random_integer)
 
 # random.choice: select a random item from a list
-print(random.choice(["snap", "no snap", "what?"]))
+random_item = random.choice(["Fortnite", "Apex", "Anthem"])
+print(random_item)
 
-# random.shuffle: shuffles a list
-print(random.shuffle([1, 2, 3, 4, 5, 6]))
+# random.shuffle: shuffles a sequence
+x = [1,2,3,4,5,6,7,8,9,10]
+random.shuffle(x)
+print(x)
