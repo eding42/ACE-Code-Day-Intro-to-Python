@@ -22,11 +22,11 @@ if java == "bad":
 heathen = "python2"
 
 if heathen == "java":
-    # If badlang has value "java", print "java man bad"
+    # If heathen has value "java", print "java man bad"
     print("java man bad")
 elif heathen == "python2":
-    # If badlang has value "python2", print "python2 is old"
+    # If heathen has value "python2", print "python2 is old"
     print("python2 is old")
 else:
-    # If badlang is not "java" or "python2", print "good"
+    # If heathen is not "java" or "python2", print "good"
     print("good")
