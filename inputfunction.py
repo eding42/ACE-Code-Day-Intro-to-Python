@@ -5,4 +5,4 @@
 firstinput = input("Here! Look! I'm asking you for a input: ")
 
 # This prints whatever you entered in the first line
-print(firstinput)
+print("Your input was '{}'!" .format(firstinput))

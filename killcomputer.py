@@ -14,3 +14,5 @@
 
 while True:
     print("Infinite Loop")
+
+# "It's that easy!"
