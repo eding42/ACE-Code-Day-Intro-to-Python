@@ -29,5 +29,4 @@ for fpath in os.scandir("."):
                 if row[2] == "kg2084":
                     writer.writerow(row)
 
-
 tmp.close()
