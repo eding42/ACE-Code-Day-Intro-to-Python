@@ -15,3 +15,5 @@ Run a Python script with:
 
 Replace "nameofscript.py" with the actual file name.
 
+Or you could just use repl.it and be smart. 
+
